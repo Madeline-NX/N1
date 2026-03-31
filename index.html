@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ELVE — Презентация бренда</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="hero__badge">Brand showcase</p>
+      <h1 class="hero__title">ELVE</h1>
+      <p class="hero__subtitle">
+        Лаконичная презентация бренда с окнами 2D-анимаций.
+      </p>
+    </header>
+
+    <main class="gallery" aria-label="Окна 2D анимаций">
+      <section class="card card--orbit" aria-label="Орбитальные линии">
+        <h2>Orbit Pulse</h2>
+        <div class="window window--orbit">
+          <div class="orbit orbit--one"></div>
+          <div class="orbit orbit--two"></div>
+          <div class="orbit orbit--three"></div>
+          <span class="dot"></span>
+        </div>
+      </section>
+
+      <section class="card card--wave" aria-label="Волновая анимация">
+        <h2>Wave Motion</h2>
+        <div class="window window--wave">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </section>
+
+      <section class="card card--spark" aria-label="Сверкающие частицы">
+        <h2>Star Drift</h2>
+        <div class="window window--spark" id="spark-field"></div>
+      </section>
+    </main>
+
+    <footer class="footer">ELVE © 2026</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
